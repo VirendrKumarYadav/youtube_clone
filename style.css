@@ -1,0 +1,71 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 1%;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_cont {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+main {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 10%;
+}
+
+aside {
+
+    padding: 2%;
+}
+
+.aside-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.aside-container>div {
+    width: 25%;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    width: 75%;
+}
